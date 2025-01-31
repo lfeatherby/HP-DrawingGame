@@ -11,7 +11,7 @@ function preload() {
   font = loadFont('Inconsolata.otf');
 }
 function setup() {
-  const canv = createCanvas(windowWidth, windowHeight, WEBGL);
+  const canv = createCanvas(windowWidth, windowHeight);
   canv.position(windowWidth / 4, windowHeight / 4);
   background(255);
   pg = createGraphics(100, 100);
